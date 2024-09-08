@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; 
 
-export class Navbar extends Component {
-  render() {
+const  Navbar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
@@ -39,7 +37,7 @@ export class Navbar extends Component {
             {/* Search form */}
             <form className="d-flex ms-auto mx-4" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-outline-info" type="submit">Search</button>
+              <button className="btn btn-danger" type="submit">Search</button>
             </form>
 
             {/* LinkedIn and GitHub Icons */}
@@ -54,8 +52,7 @@ export class Navbar extends Component {
           </div>
         </div>
       </nav>
-    );
-  }
+    )
 }
 
 export default Navbar;

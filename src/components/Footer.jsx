@@ -9,7 +9,7 @@ const Footer = () => {
           {/* About Section */}
           <div className="col-md-6 text-center text-md-start">
             <h5 className="mb-2">About QuickNews</h5>
-            <p>QuickNews is your go-to platform for the latest news headlines from around the world. Developed and maintained by <a  className='text-info' href="https://anand44xy.github.io/My-Portfolio/">Anand Saini.</a></p>
+            <p>QuickNews is your go-to platform for the latest news headlines from around the world. Developed and maintained by <a  className='text-danger' href="https://anand44xy.github.io/My-Portfolio/">Anand Saini.</a></p>
           </div>
 
           {/* Contact & Social Icons */}
